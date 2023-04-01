@@ -1,0 +1,88 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: 0;
+}
+
+.navbar {
+    font-family: 'Raleway', sans-serif;
+    background-color: #FAFDE6;
+    color: black;
+}
+.container .navbar-brand
+{
+    font-size: 25px;
+    color: #FF0404;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #FF0404;
+}
+.coba{
+    color: #FF0404;
+    border: #FF0404 solid;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+    width: 100%;
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(119, 119, 119, 0.7),rgba(119,119,119, 0.7)),url("image/beasiswa.png");
+    background-size: cover;
+    position: relative;
+    padding: 120px 0;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.hero h2 span {
+    color: #FF0404;
+}
+
+.hero blockquote {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero .btn-get-started {
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #FF0404;
+    color: #fff;
+}
+
+#footer{
+   text-align: center;
+   position: relative;
+   font-family: 'Raleway',sans-serif;
+   padding-top: 10px; 
+   color: #FF0404;
+   font-weight: 800;
+   font-size: 12px;
+}
+
+/* LOGIN */
+
+#cobaa form form-control{
+    position: relative;
+    color: #FF0404;
+}
